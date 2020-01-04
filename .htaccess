@@ -1,0 +1,4 @@
+Order deny,allow
+Allow from all
+Allow from gbprojekte.github.io
+Satisfy Any
