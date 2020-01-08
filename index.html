@@ -2,12 +2,12 @@
   <a>Testeite PHP</a>
 </head>
 <body>
-<?php
-$handle = "./"; //fuer aktuelle dir
-$scan = scandir ($handle);
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+<input type="file" id="dateien" name="dateien" multiple="multiple" />
 
-foreach ($scan as $datei)
-{
-  echo"<a href='./$datei'>$datei</a><br/>";
-}
-?>
+<ul id="dateiliste"></ul>
+  </center>
