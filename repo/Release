@@ -3,6 +3,6 @@ Label: Werwolf2303   <--
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: ipados-arm
+Architectures: iphoneos-arm
 Components: main
 Description: EmuAndAppRepo - Eine Emulator und App repo für Ipads <--
