@@ -1,13 +1,26 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
+Package: org.ppsspp
+Version: 2.0.0
+Section: Emulatoren
 Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Depends: firmware (>8.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
+Filename: ./debs/org.ppsspp.deb
 Size: 854
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
+Description: Ein PSP Emulator
+Author: Nothing <reposithree@gmail.com>
+Depiction: https://gbprojekte.github.io/repo/depictions/org.ppsspp/index.html
+
+Package: org.kodi
+Version: 2.0.0
+Section: Multimedia
+Maintainer: Nothing <reposithree@gmail.com>
+Depends: firmware (>8.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/org.kodi.deb
+Size: 854
+MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+Description: Ein Multimedia System
+Name: Kodi
 Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Depiction: https://gbprojekte.github.io/repo/depictions/org.kodi/index.html
